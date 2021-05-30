@@ -1,4 +1,4 @@
-# median-filter
+# Median Filter on an FPGA
 
 This project showcases a median filter implemented on a Nexys4 DDR FPGA. Matlab was used to send an image to the FPGA via UART, and the image was stored in DDR2 memory using AXI Stream/Lite interfaces. A pipelined median filter was designed to process the image.
 
